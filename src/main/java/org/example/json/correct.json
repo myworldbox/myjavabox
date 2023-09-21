@@ -1,0 +1,50 @@
+{
+    "account": [
+      {
+        "id": "correct.account.level_1",
+        "email": "level_1@gmail.com",
+        "password": "level_1_pw"
+      },
+      {
+        "id": "correct.account.level_2",
+        "email": "level_2@gmail.com",
+        "password": "level_2_pw"
+      },
+      {
+        "id": "correct.account.level_3",
+        "email": "cheukkinng@gmail.comm",
+        "password": "mF123456!",
+        "truth": {
+          "name": "johnny"
+        }
+      }
+    ],
+  "order": [
+    {
+      "id": "correct.order.small",
+      "price": "1",
+      "lot": "0.1",
+      "slippage": "1",
+      "validity": "1",
+      "take_profit": "1",
+      "stop_loss": "1",
+      "tp": "0.9",
+      "truth": {
+        "tp": "940"
+      }
+    },
+    {
+      "id": "correct.order.big",
+      "price": "100",
+      "lot": "100",
+      "slippage": "100",
+      "validity": "100",
+      "take_profit": "100",
+      "stop_loss": "100",
+      "tp": "0.9",
+      "truth": {
+        "tp": "940"
+      }
+    }
+  ]
+}

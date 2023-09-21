@@ -1,0 +1,30 @@
+{
+  "account": [
+    {
+      "id": "wrong.account.undefined",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "wrong.account.email",
+      "email": "cheukkinng@gmail.comm",
+      "password": "123123"
+    },
+    {
+      "id": "wrong.account.password",
+      "email": "",
+      "password": ""
+    }
+  ],
+  "order": [
+    {
+      "id": "wrong.order.undefined",
+      "price": "",
+      "lot": "",
+      "slippage": "",
+      "validity": "",
+      "take_profit": "",
+      "stop_loss": ""
+    }
+  ]
+}

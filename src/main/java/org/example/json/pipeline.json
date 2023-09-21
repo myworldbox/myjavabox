@@ -1,0 +1,69 @@
+{
+    "test_case" :[
+        {
+            "index": 0,
+            "id": "test_0",
+            "action": [
+                {
+                    "action_id": "navigate.close"
+                },
+                {
+                    "action_id": "navigate.open"
+                },
+                {
+                    "action_id": "auth.login",
+                    "input_id": "correct.account.level_3"
+                },
+                {
+                    "action_id": "order.pending.buy_with_param",
+                    "input_id": "correct.order.big"
+                },
+                {
+                    "action_id": "auth.logout"
+                }
+            ]
+        },
+        {
+            "index": 1,
+            "id": "test_1",
+            "action": [
+                {
+                    "action_id": "navigate.close"
+                },
+                {
+                    "action_id": "navigate.open"
+                },
+                {
+                    "action_id": "auth.login",
+                    "input_id": "correct.account.level_3"
+                },
+                {
+                    "action_id": "auth.logout"
+                }
+            ]
+        },
+        {
+            "index": 2,
+            "id": "test_2",
+            "action": [
+                {
+                    "action_id": "navigate.close"
+                },
+                {
+                    "action_id": "navigate.open"
+                },
+                {
+                    "action_id": "auth.login",
+                    "input_id": "correct.account.level_3"
+                },
+                {
+                    "action_id": "order.pending.buy",
+                    "input_id": "correct.order.big"
+                },
+                {
+                    "action_id": "auth.logout"
+                }
+            ]
+        }
+    ]
+}

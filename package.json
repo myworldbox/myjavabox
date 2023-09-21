@@ -1,0 +1,11 @@
+{
+    "name": "myjavabox",
+    "version": "0.1.0",
+    "private": true,
+    "license": "2020 © myworldbox.",
+    "scripts": {
+      "commit": "npm run commit:npm",
+      "commit:npm": "git add . && git commit -a -m %npm_config_comment% && git push"
+    }
+  }
+  
